@@ -1,4 +1,4 @@
-let mapleader=" "
+let mapleader=","
 syntax on
 set number
 set norelativenumber
@@ -59,15 +59,15 @@ map Q :q<CR>
 map R :source $MYVIMRC<CR>
 map ; :
 
-map si :set splitright<CR>:vsplit<CR>
-map sn :set nosplitright<CR>:vsplit<CR>
+map sl :set splitright<CR>:vsplit<CR>
+map sh :set nosplitright<CR>:vsplit<CR>
 map su :set nosplitbelow<CR>:split<CR>
 map se :set splitbelow<CR>:split<CR>
 
-map <LEADER>i <C-w>l
-map <LEADER>u <C-w>k
-map <LEADER>n <C-w>h
-map <LEADER>e <C-w>j
+map <LEADER>l <C-w>l
+map <LEADER>k <C-w>k
+map <LEADER>h <C-w>h
+map <LEADER>j <C-w>j
 
 map <up> :res +5<CR>
 map <down> :res -5<CR>
